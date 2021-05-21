@@ -1,0 +1,186 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://1_variables/variables.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -1.0
+margin_top = -2.0
+margin_right = -1.0
+margin_bottom = -2.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 354.0
+margin_top = 163.0
+margin_right = 655.0
+margin_bottom = 384.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="GridContainer" parent="Panel"]
+margin_left = 72.0
+margin_top = 24.0
+margin_right = 231.0
+margin_bottom = 192.0
+custom_constants/vseparation = 8
+columns = 2
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="PlayerNameLabel" type="Label" parent="Panel/VBoxContainer"]
+margin_right = 101.0
+margin_bottom = 14.0
+text = "Player Name ="
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PlayerName" type="Label" parent="Panel/VBoxContainer"]
+margin_left = 105.0
+margin_right = 105.0
+margin_bottom = 14.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CharacterLabel" type="Label" parent="Panel/VBoxContainer"]
+margin_top = 22.0
+margin_right = 101.0
+margin_bottom = 36.0
+text = "Character ="
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Character" type="Label" parent="Panel/VBoxContainer"]
+margin_left = 105.0
+margin_top = 22.0
+margin_right = 105.0
+margin_bottom = 36.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AgeLabel" type="Label" parent="Panel/VBoxContainer"]
+margin_top = 44.0
+margin_right = 101.0
+margin_bottom = 58.0
+text = "Age = "
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Age" type="Label" parent="Panel/VBoxContainer"]
+margin_left = 105.0
+margin_top = 44.0
+margin_right = 105.0
+margin_bottom = 58.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BankLabel" type="Label" parent="Panel/VBoxContainer"]
+margin_top = 66.0
+margin_right = 101.0
+margin_bottom = 80.0
+text = "Bank Balance = "
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Bank" type="Label" parent="Panel/VBoxContainer"]
+margin_left = 105.0
+margin_top = 66.0
+margin_right = 105.0
+margin_bottom = 80.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HeightLabel" type="Label" parent="Panel/VBoxContainer"]
+margin_top = 88.0
+margin_right = 101.0
+margin_bottom = 102.0
+text = "Height = "
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Height" type="Label" parent="Panel/VBoxContainer"]
+margin_left = 105.0
+margin_top = 88.0
+margin_right = 105.0
+margin_bottom = 102.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SecondsLabel" type="Label" parent="Panel/VBoxContainer"]
+margin_top = 110.0
+margin_right = 101.0
+margin_bottom = 124.0
+text = "Seconds = "
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Seconds" type="Label" parent="Panel/VBoxContainer"]
+margin_left = 105.0
+margin_top = 110.0
+margin_right = 105.0
+margin_bottom = 124.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TallLabel" type="Label" parent="Panel/VBoxContainer"]
+margin_top = 132.0
+margin_right = 101.0
+margin_bottom = 146.0
+text = "Tall = "
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tall" type="Label" parent="Panel/VBoxContainer"]
+margin_left = 105.0
+margin_top = 132.0
+margin_right = 105.0
+margin_bottom = 146.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HasItemLabel" type="Label" parent="Panel/VBoxContainer"]
+margin_top = 154.0
+margin_right = 101.0
+margin_bottom = 168.0
+text = "Has Item = "
+align = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HasItem" type="Label" parent="Panel/VBoxContainer"]
+margin_left = 105.0
+margin_top = 154.0
+margin_right = 105.0
+margin_bottom = 168.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
